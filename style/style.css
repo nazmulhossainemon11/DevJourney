@@ -126,41 +126,52 @@ button {
     margin: 40px auto;
 }
 
+.box-container a {
+
+    color: #1b212f;
+    font-weight: bold;
+}
+
 #html {
     background: #fff6f4;
     padding: 20px;
+    border-radius: 10px;
 }
 
 #css {
     background: #f2f6fe;
     padding: 20px;
+    border-radius: 10px;
+
 }
 
 #javascript {
     background: #fffdf2;
     padding: 20px;
+    border-radius: 10px;
+
 }
 
 /* Support Form */
 
 .support-form {
-    position: relative; 
+    position: relative;
     background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px 0;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .support-form::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.5); 
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .support-container {
-    position: relative; 
+    position: relative;
     text-align: center;
     padding: 100px;
 }
@@ -179,12 +190,12 @@ button {
 }
 
 .support-container form input[type="text"] {
-    width: 100%;           
-    max-width: 400px;       
-    padding: 10px 15px;     
-    border: 1px solid #ccc; 
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .support-container form .btn {
@@ -194,4 +205,13 @@ button {
     border-radius: 5px;
     border: none;
 }
+
+/* footer */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
 
