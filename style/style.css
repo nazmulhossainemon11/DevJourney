@@ -87,18 +87,111 @@ button {
     border-radius: 10px;
 }
 
+.content-split button {
+    color: #6a6d76;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 /* Inspiration Part */
-.inspiration-container{
+.inspiration-container {
     text-align: center;
     margin: 30px 0;
 }
-.inspiration-video{
+
+.inspiration-video {
     border: 1px solid #ddd;
-    width: 50%;
-    padding: 20px;
+    width: 40%;
+    padding: 15px;
     margin: 0 auto;
     border-radius: 10px;
 }
-.inspiration-video iframe{
+
+.inspiration-video iframe {
     border-radius: 10px;
 }
+
+.my-current-target-title {
+    text-align: center;
+}
+
+/* Card Container */
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+#html {
+    background: #fff6f4;
+    padding: 20px;
+}
+
+#css {
+    background: #f2f6fe;
+    padding: 20px;
+}
+
+#javascript {
+    background: #fffdf2;
+    padding: 20px;
+}
+
+/* Support Form */
+
+.support-form {
+    position: relative; 
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0;
+    overflow: hidden; 
+}
+
+.support-form::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5); 
+}
+
+.support-container {
+    position: relative; 
+    text-align: center;
+    padding: 100px;
+}
+
+.support-form .support-container {
+    text-align: center;
+    padding: 100px;
+}
+
+.support-form .support-container h3 {
+    color: white;
+}
+
+.support-form .support-container p {
+    color: #a29b9d
+}
+
+.support-container form input[type="text"] {
+    width: 100%;           
+    max-width: 400px;       
+    padding: 10px 15px;     
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.support-container form .btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
