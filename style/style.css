@@ -152,59 +152,74 @@ button {
 
 }
 
-/* Support Form */
-
+/* Support form */
 .support-form {
     position: relative;
     background-image: url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;   
+    min-height: 350px;             
     margin: 40px 0;
     overflow: hidden;
 }
 
+/* Overlay with opacity */
 .support-form::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.55);  
 }
 
+/* Content on top of overlay */
 .support-container {
     position: relative;
     text-align: center;
-    padding: 100px;
+    padding: 80px 20px;
+    z-index: 1;
 }
 
-.support-form .support-container {
-    text-align: center;
-    padding: 100px;
+.support-container h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 26px;
 }
 
-.support-form .support-container h3 {
-    color: white;
-}
-
-.support-form .support-container p {
-    color: #a29b9d
+.support-container p {
+    color: #ddd;
+    margin-bottom: 25px;
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .support-container form input[type="text"] {
     width: 100%;
     max-width: 400px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .support-container form .btn {
-    padding: 10px 30px;
+    padding: 12px 30px;
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    background: #ff9800;
+    color: #fff;
+    transition: background 0.3s;
 }
+
+.support-container form .btn:hover {
+    background: #e68900;
+}
+
 
 /* footer */
 .footer-container {
