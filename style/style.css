@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Style */
+.azeret-mono-class {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Header Top */
+.header-bottom {
+    background: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.header-top h3 {
+    color: #0D1321;
+}
+
+.header-top button {
+    color: #0D1321;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+/* Header Bottom */
+.hero-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-container h2,
+p,
+button {
+    margin: 12px 0;
+}
+
+.hero-container button {
+    background-color: #0D1321;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Why Web Development */
+.web-development-section {
+    background-color: #fafafb;
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.why-web-development-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.content-split {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Inspiration Part */
+.inspiration-container{
+    text-align: center;
+    margin: 30px 0;
+}
+.inspiration-video{
+    border: 1px solid #ddd;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.inspiration-video iframe{
+    border-radius: 10px;
+}
