@@ -399,3 +399,145 @@
     background-color: #f8f8f8;
     padding: 10px 0;
 }
+
+
+
+/* =============================
+   Responsive Design
+   ============================= */
+
+/* Large screens (up to 1200px) */
+@media (max-width: 1200px) {
+  .split-box {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .goals-container {
+    width: 95%;
+  }
+
+  .video-box {
+    width: 80%;
+  }
+}
+
+/* Tablet screens (up to 992px) */
+@media (max-width: 992px) {
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .split-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .split-box.reverse {
+    flex-direction: column;
+  }
+
+  .split-image img {
+    max-width: 80%;
+    margin-top: 15px;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%;
+  }
+
+  .video-box {
+    width: 90%;
+  }
+}
+
+/* Mobile screens (up to 768px) */
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px 10px;
+  }
+
+  .hero-img {
+    max-width: 150px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .intro-box h3 {
+    font-size: 1.5rem;
+  }
+
+  .split-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .split-text p {
+    font-size: 0.9rem;
+  }
+
+  .skill-card {
+    width: 100%;
+  }
+
+  .support-container {
+    padding: 40px 15px;
+  }
+
+  .support-container h3 {
+    font-size: 20px;
+  }
+
+  .support-container p {
+    font-size: 14px;
+  }
+
+  .support-container form input[type="text"] {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+/* Very small screens (up to 480px) */
+@media (max-width: 480px) {
+  .hero-content h2 {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.85rem;
+  }
+
+  .contact-btn,
+  .learn-btn,
+  .resume-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .split-image img {
+    max-width: 100%;
+  }
+
+  .skill-icon img {
+    max-width: 50px;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+  }
+}
