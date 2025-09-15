@@ -264,7 +264,7 @@
 .goals-container {
   width: 90%;
   margin: 40px auto;
-  text-align: center; /* Only for section header */
+  text-align: center; 
 }
 
 .goals-header h3,
@@ -284,7 +284,7 @@
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  text-align: left; /* Left align content inside card */
+  text-align: left; 
 }
 
 .skill-icon img {
@@ -296,7 +296,7 @@
 .skill-card h3,
 .skill-card p,
 .skill-card a {
-  text-align: left; /* Force left alignment */
+  text-align: left; 
 }
 
 .skill-card a {
@@ -305,7 +305,7 @@
   color: #1b212f;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 2px solid #1b212f; /* underline */
+  border-bottom: 2px solid #1b212f; 
   padding-bottom: 2px;
 }
 
